@@ -29,6 +29,7 @@ namespace UniversityCourseSelection.Controllers
             await _context.SaveChangesAsync();
             return CreatedAtAction("GetCourses", new { id = course.CourseID }, course);
         }
+        public void Add() { }
     }
 
 }

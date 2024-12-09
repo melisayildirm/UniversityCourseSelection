@@ -13,7 +13,5 @@ namespace UniversityCourseSelection.Models
             public DateTime EnrollmentDate { get; set; }
            public Advisors Advisor { get; set; }
          public ICollection<StudentCourseSelections> StudentCourseSelection { get; set; } = new List<StudentCourseSelections>();
-
-
     }
 }
